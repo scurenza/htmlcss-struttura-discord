@@ -5,3 +5,36 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header{
+
+    /* DEBUG */
+    height: 100px;
+    background-color: #add8e6;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    
+
+    /* DEBUG */
+    background-color: #daa520;
+    border: 1px dashed black;
+}
+
+.logo{
+    border: 1px dashed black;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0 4px;
+}
