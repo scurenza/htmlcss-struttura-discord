@@ -111,7 +111,7 @@ footer{
 }
 
 .footer-bottom{
-    height: 100px;
+    min-height: 80px;
     display: flex;
     justify-content: space-between;
     background-color: #7fffd4;
