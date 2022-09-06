@@ -7,16 +7,16 @@
 
 /* COMMON */
 html{
-    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
 }
 .container{
     width: 80%;
     margin: 0 auto;
 }
 
-hr{
+/* hr{
     background-color: #d3d3d3;
-}
+} */
 
 /* HEADER */
 header{
@@ -48,10 +48,17 @@ header ul li{
     padding: 0 16px;
 }
 
-.login{
+/* .login{
     background-color: white;
     padding: 10px;
     border-radius: 30px;
+} */
+
+input{
+    background-color: white;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
 }
 
 /* MAIN */
@@ -59,7 +66,7 @@ header ul li{
     width: 100%;
     padding: 50px;
     /* DEBUG */
-    min-height: 575px;
+    min-height: 600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,14 +78,14 @@ header ul li{
     margin: 0px auto;
 
     /* DEBUG */
-    height: 400px;
+    min-height: 400px;
     
     
 }
 
 .section{
     margin: 30px auto;
-    height: 400px;
+    height: 300px;
     display: flex;
 }
 
@@ -95,19 +102,19 @@ header ul li{
 
 .section-container{
     width: 100%;
-    padding: 10px 0;
+    padding: 1em 0;
     background-color: #d3d3d3;
 }
 
 .four{
-    height: 600px;
+    height: 400px;
     background-color: #228b22;
 }
 
 /* FOOTER */
 footer{
     background-color: #23272a;
-    min-height: 600px;
+    min-height: 400px;
 }
 
 .footer-section{
@@ -118,12 +125,13 @@ footer{
 }
 
 .col-one{
-    width: 34%;
+    width: 40%;
     background-color: #f08080;
 }
 
 .col{
-    width: calc(66% / 4);
+    /* width: calc(66% / 4); */
+    flex-grow: 1;
     background-color: #20b2aa;
     border: 2px dashed white;
 }
